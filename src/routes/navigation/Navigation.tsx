@@ -5,7 +5,7 @@ import Container from "@/components/ui/container";
 
 const Navigation = () => {
   return (
-    <header className=" py-3 border-b">
+    <header className=" py-3  backdrop-blur">
       <Container>
         <div className="flex justify-between">
           <Logo />
