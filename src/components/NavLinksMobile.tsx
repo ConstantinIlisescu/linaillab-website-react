@@ -1,13 +1,13 @@
 import { routes } from "@/constants/routes";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Link } from "react-router-dom";
-import MenuIcon from "@/icons/MenuIcon";
+import { CgMenuRight } from "react-icons/cg";
 
 const NavLinksMobile = () => {
   return (
     <Sheet>
       <SheetTrigger className="md:hidden">
-        <MenuIcon />
+        <CgMenuRight />
       </SheetTrigger>
       <SheetContent>
         <nav className="flex flex-col gap-4 text-center">
