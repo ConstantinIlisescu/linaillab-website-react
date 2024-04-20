@@ -1,21 +1,39 @@
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navigation from "@/routes/navigation/Navigation";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Layout from "@/routes/layout/Layout";
 import Home from "@/routes/home/Home";
+import Services from "@/routes/services/Services";
+import MyWork from "@/routes/my-work/MyWork";
+import AboutMe from "@/routes/about-me/AboutMe";
 import "./App.css";
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    errorElement: <>my error page</>,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "services",
+        element: <Services />,
+      },
+      {
+        path: "my-work",
+        element: <MyWork />,
+      },
+      {
+        path: "about-me",
+        element: <AboutMe />,
+      },
+    ],
+  },
+]);
+
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Navigation />}>
-          <Route index element={<Home />} />
-          {/* <Route path="blogs" element={<Blogs />} /> */}
-          <Route path="*" element={<>Error page</>} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
