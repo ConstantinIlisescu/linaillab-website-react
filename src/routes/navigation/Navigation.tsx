@@ -1,7 +1,20 @@
-import Navbar from "@/components/Navbar";
+import Logo from "@/components/Logo";
+import NavLinks from "@/components/NavLinks";
+import NavLinksMobile from "@/components/NavLinksMobile";
+import Container from "@/components/ui/container";
 
 const Navigation = () => {
-  return <Navbar />;
+  return (
+    <header className=" py-3 border-b">
+      <Container>
+        <div className="flex justify-between">
+          <Logo />
+          <NavLinks />
+          <NavLinksMobile />
+        </div>
+      </Container>
+    </header>
+  );
 };
 
 export default Navigation;
