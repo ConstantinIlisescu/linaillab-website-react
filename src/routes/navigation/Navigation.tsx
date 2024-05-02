@@ -5,7 +5,7 @@ import Container from "@/components/ui/container";
 
 const Navigation = () => {
   return (
-    <header className=" py-3  backdrop-blur">
+    <header className=" py-3 backdrop-blur-md fixed w-full">
       <Container>
         <div className="flex justify-between">
           <Logo />

@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
+.main-section-bg-img {
+  background-image: url("../../assets/images/mobile/splash-main-area.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.font-italiana {
+  font-family: "Italiana", sans-serif;
+}

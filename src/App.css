@@ -1,2 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
 
+#root {
+    --light-bg: rgb(252, 254, 253)
+    --main-blue-color: rgb(40, 164, 230)
+    --main-pink-color: rgb(247, 81, 197)
+    --secondary-purple-color:rgb(155, 152, 218)
+    --secondary-blue-color:rgb(138, 223, 242)
+    --secondary-green-color:rgb(70, 210, 159)
+    --dark-text-color: rgb(0, 0, 0)
+    --light-text-color: rgb(77, 77, 77)
+}
+
+body {
+    background-color: var(--light-bg);
+    font-family: "Kantumruy Pro", sans-serif;
+}
 

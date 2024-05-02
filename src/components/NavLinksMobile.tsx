@@ -7,7 +7,7 @@ const NavLinksMobile = () => {
   return (
     <Sheet>
       <SheetTrigger className="md:hidden">
-        <CgMenuRight />
+        <CgMenuRight className="size-12 text-cyan-500" />
       </SheetTrigger>
       <SheetContent>
         <nav className="flex flex-col gap-4 text-center">
