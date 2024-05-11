@@ -3,6 +3,7 @@
   background-position: right top;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: scale-image 30s ease-in-out infinite;
 }
 
 .mobile-home-section-welcome-bg-img {

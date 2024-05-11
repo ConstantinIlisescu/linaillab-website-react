@@ -14,19 +14,19 @@ const Home = () => {
               <p className="text-4xl sm:text-5xl pb-4 text-cyan-500">
                 {MAIN.topRowFirstTextLine}
               </p>
-              <p className="text-7xl sm:text-8xl text-fuchsia-500">
+              <p className="text-7xl sm:text-7xl text-fuchsia-500">
                 {MAIN.topRowSecondTextLine}
               </p>
             </div>
             <div className="text-end sm:justify-self-center my-auto">
-              <p className="text-5xl sm:text-6xl pb-4">
+              <p className="text-5xl sm:text-7xl pb-4">
                 {MAIN.middleRowFirstTextLine}
               </p>
-              <p className="text-5xl sm:text-6xl">
+              <p className="text-5xl sm:text-7xl">
                 {MAIN.middleRowSecondTextLine}
               </p>
             </div>
-            <div className="text-start mt-auto sm:text-end text-7xl sm:text-8xl text-cyan-500">
+            <div className="text-start mt-auto sm:text-end text-7xl text-cyan-500">
               {MAIN.bottomRowTextLine}
             </div>
           </div>
@@ -34,15 +34,17 @@ const Home = () => {
       </div>
       <div className="mobile-home-section-welcome-bg-img pt-28">
         <Container>
-          <div className="text-4xl pb-10">
-            <p className="pb-2 text-gray-700 font-italiana">
-              {WELCOME.topRowTitleFirstLine}
-            </p>
-            <p className="text-fuchsia-500 font-italiana">
-              {WELCOME.topRowTitleSecondLine}
-            </p>
+          <div className="max-w-lg">
+            <div className="text-4xl pb-10">
+              <p className="pb-2 text-gray-700 font-italiana">
+                {WELCOME.topRowTitleFirstLine}
+              </p>
+              <p className="text-fuchsia-500 font-italiana">
+                {WELCOME.topRowTitleSecondLine}
+              </p>
+            </div>
+            <p className="text-gray-700 pr-10">{WELCOME.description}</p>
           </div>
-          <p className="text-gray-700 pr-10">{WELCOME.description}</p>
         </Container>
       </div>
       <div className="mobile-home-section-services-bg-img pt-28 mb-28">

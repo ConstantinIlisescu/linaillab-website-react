@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
 
 #root {
-    --light-bg: rgb(252, 254, 253)
+    --light-bg: rgb(252, 254, 253) 
     --main-blue-color: rgb(40, 164, 230)
     --main-pink-color: rgb(247, 81, 197)
     --secondary-purple-color:rgb(155, 152, 218)
@@ -28,11 +28,11 @@ body {
   0% {
     background-size: 100%;
   }
-  10% {
-    background-size: 110%;
+  70%{
+    background-size: 120%;
   }
   100% {
-    background-size: 120%;
+    background-size: 100%;
   }
 }
 
@@ -42,11 +42,14 @@ body {
   0% {
     background-size: 110%;
   }
-  10% {
+  20% {
+    background-size: 115%;
+  }
+  60%{
     background-size: 120%;
   }
   100% {
-    background-size: 130%;
+    background-size: 110%;
   }
 }
 }
