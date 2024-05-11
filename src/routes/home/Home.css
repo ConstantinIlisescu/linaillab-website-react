@@ -1,27 +1,41 @@
-.mobile-main-section-bg-img {
-  background-image: url("../../assets/images/mobile/mainPage/splash-main-area.png");
+.mobile-home-section-bg-img {
+  background-image: url("../../assets/images/mobile/homePage/splash-home-area.png");
   background-position: right top;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.main-section-welcome-bg-img {
-  background-image: url("../../assets/images/mobile/mainPage/splash-main-welcome.png");
+.mobile-home-section-welcome-bg-img {
+  background-image: url("../../assets/images/mobile/homePage/splash-home-welcome.png");
   background-position: right top;
   background-size: auto 250px;
   background-repeat: no-repeat;
 }
 
-.main-section-services-bg-img {
-  background-image: url("../../assets/images/mobile/mainPage/splash-main-services.png");
+.mobile-home-section-services-bg-img {
+  background-image: url("../../assets/images/mobile/homePage/splash-home-services.png");
   background-position: left top;
   background-size: auto 200px;
   background-repeat: no-repeat;
 }
 
-.main-section-footer-bg-img {
-  background-image: url("../../assets/images/mobile/mainPage/splash-main-footer.png");
+.mobile-home-section-footer-bg-img {
+  background-image: url("../../assets/images/mobile/homePage/splash-home-footer.png");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* TABLET */
+@media screen and (min-width: 640px) {
+  .tablet-home-section-bg-img {
+    background-image: url("../../assets/images/tablet/homePage/splash-home-area.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+/* MONITORS */
+@media screen and (min-width: 768px) {
 }
