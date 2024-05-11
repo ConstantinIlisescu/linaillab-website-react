@@ -41,7 +41,7 @@ const Home = () => {
           <p className="text-gray-700 pr-10">{WELCOME.description}</p>
         </Container>
       </div>
-      <div className="main-section-services-bg-img pt-28">
+      <div className="main-section-services-bg-img pt-28 mb-28">
         <Container>
           <div className="text-4xl pb-10 text-right ">
             <p className="text-fuchsia-500 font-italiana">{SERVICES.title}</p>
@@ -63,6 +63,7 @@ const Home = () => {
           </div>
         </Container>
       </div>
+      <div className="main-section-footer-bg-img pt-28 h-60"></div>
     </>
   );
 };

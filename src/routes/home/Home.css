@@ -18,3 +18,10 @@
   background-size: auto 200px;
   background-repeat: no-repeat;
 }
+
+.main-section-footer-bg-img {
+  background-image: url("../../assets/images/mobile/splash-main-footer.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
