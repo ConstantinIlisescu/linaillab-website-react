@@ -21,3 +21,32 @@ body {
 .font-italiana {
   font-family: "Italiana", sans-serif;
 }
+
+/* ### ANIMATIONS ### */
+/* scale the main splash image MOBILE */
+@keyframes scale-image {
+  0% {
+    background-size: 100%;
+  }
+  10% {
+    background-size: 110%;
+  }
+  100% {
+    background-size: 120%;
+  }
+}
+
+/* scale the main splash image TABLET */
+@media screen and (min-width: 640px) {
+  @keyframes scale-image {
+  0% {
+    background-size: 110%;
+  }
+  10% {
+    background-size: 120%;
+  }
+  100% {
+    background-size: 130%;
+  }
+}
+}
