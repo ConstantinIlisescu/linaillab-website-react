@@ -1,26 +1,26 @@
 .mobile-main-section-bg-img {
-  background-image: url("../../assets/images/mobile/splash-main-area.png");
+  background-image: url("../../assets/images/mobile/mainPage/splash-main-area.png");
   background-position: right top;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .main-section-welcome-bg-img {
-  background-image: url("../../assets/images/mobile/splash-main-welcome.png");
+  background-image: url("../../assets/images/mobile/mainPage/splash-main-welcome.png");
   background-position: right top;
   background-size: auto 250px;
   background-repeat: no-repeat;
 }
 
 .main-section-services-bg-img {
-  background-image: url("../../assets/images/mobile/splash-main-services.png");
+  background-image: url("../../assets/images/mobile/mainPage/splash-main-services.png");
   background-position: left top;
   background-size: auto 200px;
   background-repeat: no-repeat;
 }
 
 .main-section-footer-bg-img {
-  background-image: url("../../assets/images/mobile/splash-main-footer.png");
+  background-image: url("../../assets/images/mobile/mainPage/splash-main-footer.png");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
