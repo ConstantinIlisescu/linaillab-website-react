@@ -1,26 +1,65 @@
-.mobile-home-section-bg-img {
+/* scale the main splash image MOBILE */
+@keyframes scale-main-image {
+  0% {
+    background-size: 100%;
+  }
+  70% {
+    background-size: 112%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+.home-section-bg-img {
   background-image: url("../../assets/images/mobile/homePage/splash-home-area.png");
   background-position: right top;
   background-repeat: no-repeat;
   background-size: contain;
-  animation: scale-image 30s ease-in-out infinite;
+  animation: scale-main-image 30s ease-in-out infinite;
 }
 
-.mobile-home-section-welcome-bg-img {
+@keyframes scale-welcome-image {
+  0% {
+    background-size: 25%;
+  }
+  30% {
+    background-size: 30%;
+  }
+  100% {
+    background-size: 25%;
+  }
+}
+
+.home-section-welcome-bg-img {
   background-image: url("../../assets/images/mobile/homePage/splash-home-welcome.png");
   background-position: right top;
-  background-size: auto 250px;
+  background-size: contain;
   background-repeat: no-repeat;
+  animation: scale-welcome-image 30s ease-in-out infinite;
 }
 
-.mobile-home-section-services-bg-img {
+@keyframes scale-services-image {
+  0% {
+    background-size: 20%;
+  }
+  30% {
+    background-size: 23%;
+  }
+  100% {
+    background-size: 20%;
+  }
+}
+
+.home-section-services-bg-img {
   background-image: url("../../assets/images/mobile/homePage/splash-home-services.png");
   background-position: left top;
-  background-size: auto 200px;
+  background-size: contain;
   background-repeat: no-repeat;
+  animation: scale-services-image 30s ease-in-out infinite;
 }
 
-.mobile-home-section-footer-bg-img {
+.home-section-footer-bg-img {
   background-image: url("../../assets/images/mobile/homePage/splash-home-footer.png");
   background-position: left;
   background-size: cover;
@@ -28,15 +67,60 @@
 }
 
 /* TABLET */
-@media screen and (min-width: 640px) {
-  .tablet-home-section-bg-img {
+@media screen and (min-width: 768px) {
+  /* scale the main splash image TABLET */
+  @media screen and (min-width: 640px) {
+    @keyframes scale-main-image {
+      0% {
+        background-size: 105%;
+      }
+      20% {
+        background-size: 110%;
+      }
+      60% {
+        background-size: 112%;
+      }
+      100% {
+        background-size: 105%;
+      }
+    }
+  }
+
+  .home-section-bg-img {
     background-image: url("../../assets/images/tablet/homePage/splash-home-area.png");
     background-position: right top;
-    background-repeat: no-repeat;
+  }
+
+  @keyframes scale-welcome-image {
+    0% {
+      background-size: 150px 350px;
+    }
+    30% {
+      background-size: 200px 350px;
+    }
+    100% {
+      background-size: 150px 350px;
+    }
+  }
+
+  .home-section-welcome-bg-img {
+    background-image: url("../../assets/images/tablet/homePage/splash-home-welcome.png");
+    background-position: right center;
     background-size: contain;
+  }
+
+  .home-section-services-bg-img {
+    background-image: url("../../assets/images/tablet/homePage/splash-home-services.png");
+    background-position: left center;
+    background-size: contain;
+  }
+
+  .home-section-footer-bg-img {
+    background-image: url("../../assets/images/tablet/homePage/splash-home-footer.png");
+    background-position: center;
   }
 }
 
 /* MONITORS */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 }
