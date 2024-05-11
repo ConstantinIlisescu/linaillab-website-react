@@ -21,3 +21,17 @@ body {
 .font-italiana {
   font-family: "Italiana", sans-serif;
 }
+
+/* ### ANIMATIONS ### */
+/* scale the main splash image */
+@keyframes scale-image {
+  0% {
+    background-size: 100%;
+  }
+  10% {
+    background-size: 110%;
+  }
+  100% {
+    background-size: 120%;
+  }
+}
