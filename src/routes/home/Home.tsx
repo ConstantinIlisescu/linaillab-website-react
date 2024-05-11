@@ -7,7 +7,7 @@ import { MAIN, WELCOME, SERVICES } from "@/data/mainPage";
 const Home = () => {
   return (
     <>
-      <div className="home-section-bg-img">
+      <div className="home-section-bg-img mx-auto w-full max-w-6xl">
         <Container>
           <div className="pt-28 pb-4 grid justify-items-stretch h-screen font-italiana">
             <div className="text-start">
@@ -32,9 +32,9 @@ const Home = () => {
           </div>
         </Container>
       </div>
-      <div className="home-section-welcome-bg-img pt-28">
+      <div className="home-section-welcome-bg-img pt-28 mx-auto w-full max-w-6xl">
         <Container>
-          <div className="max-w-lg">
+          <div className="max-w-lg ">
             <div className="text-4xl pb-10">
               <p className="pb-2 text-gray-700 font-italiana">
                 {WELCOME.topRowTitleFirstLine}
@@ -49,7 +49,7 @@ const Home = () => {
           </div>
         </Container>
       </div>
-      <div className="home-section-services-bg-img pt-28 mb-28">
+      <div className="home-section-services-bg-img pt-28 mb-28 mx-auto w-full max-w-6xl">
         <Container>
           <div className="max-w-lg ml-auto md:pr-16">
             <div className="text-4xl pb-10 text-right ">
@@ -73,7 +73,7 @@ const Home = () => {
           </div>
         </Container>
       </div>
-      <div className="home-section-footer-bg-img pt-28 h-60 md:h-72"></div>
+      <div className="home-section-footer-bg-img pt-28 h-60 md:h-72 lg:h-96 mx-auto w-full max-w-6xl"></div>
     </>
   );
 };
