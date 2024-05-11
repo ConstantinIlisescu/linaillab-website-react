@@ -9,13 +9,13 @@ const NavLinksMobile = () => {
       <SheetTrigger className="md:hidden">
         <CgMenuRight className="size-12 text-cyan-500" />
       </SheetTrigger>
-      <SheetContent>
-        <nav className="flex flex-col gap-4 text-center">
+      <SheetContent className="max-w-64">
+        <nav className="flex flex-col gap-4 text-left text-cyan-500">
           {routes.map((route, index) => (
             <Link
               key={`nav-link-${index}`}
               to={route.href}
-              className="text-sm font-medium transition-colors"
+              className="text-2xl font-medium transition-colors"
             >
               {route.label}
             </Link>
