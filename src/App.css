@@ -21,3 +21,7 @@ body {
 .font-italiana {
   font-family: "Italiana", sans-serif;
 }
+
+.my-rounded-tl-full {
+    border-top-left-radius: 7000px
+}

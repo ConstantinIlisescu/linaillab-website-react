@@ -1,0 +1,22 @@
+.footer-bg-img {
+  background-image: url("../../assets/images/mobile/homePage/splash-home-footer.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+  .footer-bg-img {
+    background-image: url("../../assets/images/tablet/homePage/splash-home-footer.png");
+    background-position: center;
+  }
+}
+
+/* MONITORS */
+@media screen and (min-width: 1024px) {
+  .footer-bg-img {
+    background-image: url("../../assets/images/desktop/homePage/splash-home-footer.png");
+    background-position: center;
+  }
+}

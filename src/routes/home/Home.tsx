@@ -73,7 +73,6 @@ const Home = () => {
           </div>
         </Container>
       </div>
-      <div className="home-section-footer-bg-img pt-28 h-60 md:h-72 lg:h-96 mx-auto w-full max-w-6xl"></div>
     </>
   );
 };

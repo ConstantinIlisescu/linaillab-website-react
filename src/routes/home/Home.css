@@ -56,13 +56,6 @@
   animation: scale-services-image 30s ease-in-out infinite;
 }
 
-.home-section-footer-bg-img {
-  background-image: url("../../assets/images/mobile/homePage/splash-home-footer.png");
-  background-position: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 /* TABLET */
 @media screen and (min-width: 768px) {
   @keyframes scale-main-image {
