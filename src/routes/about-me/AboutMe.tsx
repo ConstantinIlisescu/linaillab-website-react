@@ -11,23 +11,25 @@ import "./AboutMe.css";
 const AboutMe = () => {
   return (
     <>
-      <div className="pt-28 about-me-top-section-bg-img">
-        <Container>
-          <div className="text-4xl md:text-5xl pb-4 text-cyan-500 text-end font-italiana">
-            {TOP_SECTION.titleFirstRow}
+      <div className="pt-28 about-me-top-section-bg-img mx-auto w-full max-w-6xl">
+        <div className=" md:flex md:flex-row-reverse">
+          <div className="px-4">
+            <div className="text-4xl md:text-6xl pb-4 text-cyan-500 text-end font-italiana">
+              {TOP_SECTION.titleFirstRow}
+            </div>
+            <div className="text-7xl md:text-8xl pb-4 text-lime-500 text-end font-italiana">
+              {TOP_SECTION.titleSecondRow}
+            </div>
+            <p className="text-gray-700  md:text-lg pb-8">
+              {TOP_SECTION.paragraph}
+            </p>
           </div>
-          <div className="text-7xl md:text-5xl pb-4 text-lime-500 text-end font-italiana">
-            {TOP_SECTION.titleSecondRow}
-          </div>
-          <p className="text-gray-700  md:text-lg pb-8">
-            {TOP_SECTION.paragraph}
-          </p>
-        </Container>
-        <img
-          className="w-3/4 my-rounded-tl-full rounded-br-full"
-          src={myImage}
-          alt="Image of myself with medium length curly hair and green background"
-        />
+          <img
+            className="w-3/4 md:w-2/4 my-rounded-tl-full rounded-br-full"
+            src={myImage}
+            alt="Image of myself with medium length curly hair and green background"
+          />
+        </div>
         <div className="w-min mx-auto">
           <MainMyServicesBtn />
         </div>
@@ -37,7 +39,7 @@ const AboutMe = () => {
           {MIDDLE_PARAGRAPH_SECTION.map((paragraph, index) => (
             <p
               key={"middle-paragraph-" + index}
-              className="text-gray-700  md:text-lg pb-4"
+              className="text-gray-700 pb-4 md:text-lg md:max-w-xl md:ps-8"
             >
               {paragraph}
             </p>
@@ -46,7 +48,7 @@ const AboutMe = () => {
       </div>
       <div className="pt-8">
         <Container>
-          <div className="flex flex-row justify-between items-center">
+          <div className="flex flex-row justify-between items-center mx-auto max-w-md">
             <div className="w-24 h-2 rounded-tl-full rounded-br-full bg-cyan-400"></div>
             <div className="w-4 h-4 rounded-bl-full rounded-tr-full bg-cyan-400"></div>
             <div className="w-4 h-4 rounded-full bg-cyan-400"></div>
@@ -60,7 +62,7 @@ const AboutMe = () => {
           {BOTTOM_PARAGRAPH_SECTION.map((paragraph, index) => (
             <p
               key={"bottom-paragraph-" + index}
-              className="text-gray-700  md:text-lg pb-4"
+              className="text-gray-700 md:text-lg md:max-w-md mx-auto pb-4"
             >
               {paragraph}
             </p>

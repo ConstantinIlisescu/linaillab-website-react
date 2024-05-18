@@ -17,23 +17,12 @@
   .about-me-top-section-bg-img {
     background-image: url("../../assets/images/tablet/homePage/splash-home-services.png");
     background-position: left top;
+    background-size: 12%;
   }
 
   .about-me-middle-section-bg-img {
     background-image: url("../../assets/images/tablet/homePage/splash-home-welcome.png");
     background-position: right center;
-  }
-}
-
-/* MONITORS */
-@media screen and (min-width: 1024px) {
-  .about-me-top-section-bg-img {
-    background-image: url("../../assets/images/desktop/homePage/splash-home-welcome.png");
-    background-position: right;
-  }
-
-  .about-me-middle-section-bg-img {
-    background-image: url("../../assets/images/desktop/homePage/splash-home-services.png");
-    background-position: left center;
+    background-size: 30%;
   }
 }
