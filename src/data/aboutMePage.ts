@@ -1,6 +1,7 @@
 export const TOP_SECTION = {
   titleFirstRow: "My",
   titleSecondRow: "Story",
+  imgPath: "about-me/about-me-picture.png",
   paragraph:
     "I have always been passionate about nails since I was a little girl, when I used to do my friends’ nails for fun. Now, I love to create beautiful nail designs for my clients, using a variety of techniques and products.",
 };

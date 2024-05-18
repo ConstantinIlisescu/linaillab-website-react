@@ -5,7 +5,6 @@ import {
   TOP_SECTION,
 } from "@/data/aboutMePage";
 import MainMyServicesBtn from "@/components/MainMyServicesBtn";
-import myImage from "@/assets/images/about-me-picture.png";
 import "./AboutMe.css";
 
 const AboutMe = () => {
@@ -26,7 +25,7 @@ const AboutMe = () => {
           </div>
           <img
             className="w-3/4 md:w-2/4 my-rounded-tl-full rounded-br-full"
-            src={myImage}
+            src={TOP_SECTION.imgPath}
             alt="Image of myself with medium length curly hair and green background"
           />
         </div>
