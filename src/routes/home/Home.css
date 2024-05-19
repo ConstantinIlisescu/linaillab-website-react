@@ -1,5 +1,5 @@
 /* scale the main splash image MOBILE */
-@keyframes scale-main-image {
+/* @keyframes scale-main-image {
   0% {
     background-size: auto 100%;
   }
@@ -9,9 +9,9 @@
   100% {
     background-size: auto 100%;
   }
-}
+} */
 
-@keyframes scale-welcome-image {
+/* @keyframes scale-welcome-image {
   0% {
     background-size: auto 40%;
   }
@@ -21,9 +21,9 @@
   100% {
     background-size: auto 40%;
   }
-}
+} */
 
-@keyframes scale-services-image {
+/* @keyframes scale-services-image {
   0% {
     background-size: auto 30%;
   }
@@ -33,32 +33,35 @@
   100% {
     background-size: auto 20%;
   }
-}
+} */
 
 .home-section-bg-img {
   background-image: url("../../assets/images/mobile/homePage/splash-home-area.png");
-  background-position: right top;
+  background-position: right bottom;
   background-repeat: no-repeat;
-  animation: scale-main-image 30s ease-in-out infinite;
+  background-size: 115%;
+  /* animation: scale-main-image 30s ease-in-out infinite; */
 }
 
 .home-section-welcome-bg-img {
   background-image: url("../../assets/images/mobile/homePage/splash-home-welcome.png");
   background-position: right top;
   background-repeat: no-repeat;
-  animation: scale-welcome-image 30s ease-in-out infinite;
+  background-size: 35%;
+  /* animation: scale-welcome-image 30s ease-in-out infinite; */
 }
 
 .home-section-services-bg-img {
   background-image: url("../../assets/images/mobile/homePage/splash-home-services.png");
   background-position: left top;
   background-repeat: no-repeat;
-  animation: scale-services-image 30s ease-in-out infinite;
+  background-size: 20%;
+  /* animation: scale-services-image 30s ease-in-out infinite; */
 }
 
 /* TABLET */
 @media screen and (min-width: 768px) {
-  @keyframes scale-main-image {
+  /* @keyframes scale-main-image {
     0% {
       background-size: auto 100%;
     }
@@ -68,9 +71,9 @@
     100% {
       background-size: auto 100%;
     }
-  }
+  } */
 
-  @keyframes scale-welcome-image {
+  /* @keyframes scale-welcome-image {
     0% {
       background-size: 20% 80%;
     }
@@ -80,9 +83,9 @@
     100% {
       background-size: 20% 80%;
     }
-  }
+  } */
 
-  @keyframes scale-services-image {
+  /* @keyframes scale-services-image {
     0% {
       background-size: 15% 70%;
     }
@@ -92,10 +95,12 @@
     100% {
       background-size: 15% 70%;
     }
-  }
+  } */
 
   .home-section-bg-img {
     background-image: url("../../assets/images/tablet/homePage/splash-home-area.png");
+    background-size: 125%;
+    background-position: right center;
   }
 
   .home-section-welcome-bg-img {
@@ -107,16 +112,11 @@
     background-image: url("../../assets/images/tablet/homePage/splash-home-services.png");
     background-position: left center;
   }
-
-  .home-section-footer-bg-img {
-    background-image: url("../../assets/images/tablet/homePage/splash-home-footer.png");
-    background-position: center;
-  }
 }
 
 /* MONITORS */
 @media screen and (min-width: 1024px) {
-  @keyframes scale-main-image {
+  /* @keyframes scale-main-image {
     0% {
       background-size: 110% 110%;
     }
@@ -132,9 +132,9 @@
     100% {
       background-size: 110% 110%;
     }
-  }
+  } */
 
-  @keyframes scale-welcome-image {
+  /* @keyframes scale-welcome-image {
     0% {
       background-size: 25% 80%;
     }
@@ -144,9 +144,9 @@
     100% {
       background-size: 25% 80%;
     }
-  }
+  } */
 
-  @keyframes scale-services-image {
+  /* @keyframes scale-services-image {
     0% {
       background-size: 30% 80%;
     }
@@ -156,24 +156,21 @@
     100% {
       background-size: 30% 80%;
     }
-  }
+  } */
 
   .home-section-bg-img {
     background-image: url("../../assets/images/desktop/homePage/splash-home-area.png");
-    background-position: center;
+    background-size: 105%;
+    background-position: bottom;
   }
   .home-section-welcome-bg-img {
     background-image: url("../../assets/images/desktop/homePage/splash-home-welcome.png");
     background-position: right;
+    background-size: 20%;
   }
 
   .home-section-services-bg-img {
     background-image: url("../../assets/images/desktop/homePage/splash-home-services.png");
     background-position: left center;
-  }
-
-  .home-section-footer-bg-img {
-    background-image: url("../../assets/images/desktop/homePage/splash-home-footer.png");
-    background-position: center;
   }
 }

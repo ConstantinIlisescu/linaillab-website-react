@@ -34,7 +34,7 @@ const Home = () => {
       </div>
       <div className="home-section-welcome-bg-img pt-28 mx-auto w-full max-w-6xl">
         <Container>
-          <div className="max-w-lg ">
+          <div className="max-w-lg md:pl-16">
             <div className="text-4xl pb-10">
               <p className="pb-2 text-gray-700 font-italiana">
                 {WELCOME.topRowTitleFirstLine}
