@@ -113,7 +113,72 @@ export const SERVICES_LIST = [
     imgPath: "/services/kart.png",
     description:
       "The Kart system effectively treats most types of fungal infections and solves the problem of unpleasant foot odour with a guarantee of an atraumatic experience during the treatment.",
-    callToAction: "What is KART Pedicure used for? ->",
+    callToAction: {
+      title: "What is KART Pedicure used for?",
+      sections: [
+        {
+          title: "What is KART Pedicure used for?",
+          imagePath: "/services/kart.png",
+          descriptions: [
+            {
+              description:
+                "Kart is highly effective in treating cracked heels, dry skin, and any other skin traumas.",
+              descriptionBulletPoints: [
+                "No foot soaking required",
+                "Fungal infections",
+                "Unpleasant foot odours",
+                "Cracked heels",
+                "Dry skin",
+                "Skin traumas",
+                "Atraumatic experience",
+                "Allergy free",
+                "Natural and active components",
+                "Complimentary aftercare products",
+              ],
+            },
+            {
+              description:
+                "The products are allergy-free, containing high concentrations of natural and active components that do not cause allergic reactions. Kart also has a comprehensive range of complementary aftercare products for all salon treatments, prolonging.",
+            },
+          ],
+        },
+        {
+          title: "Why are KART Pedicures different?",
+          descriptions: [
+            {
+              description:
+                "It guarantees a completely atraumatic client experience in removing calluses",
+            },
+          ],
+        },
+        {
+          title: "What does this mean?",
+          descriptions: [
+            {
+              description:
+                "It means that calluses or hard skin is dissolved by using Kart correct product combination that does all the work for the therapists.",
+            },
+            {
+              description:
+                "The trained professional will then remove the dissolved calluses using blunt Kart professional scalpel!",
+            },
+            {
+              description:
+                "While performing this treatment the client feels very comfortable and relaxed and quite often fascinated to see what comes off from the foot and always is very impressed with the service!",
+            },
+          ],
+        },
+        {
+          title: "What does this service include?",
+          descriptions: [
+            {
+              description:
+                "The Kart service includes foot treatment only and does not include any cleaning of the toenails, the toenails services can be found under Pedicure services.",
+            },
+          ],
+        },
+      ],
+    },
     services: [
       {
         price: "£35 - £55",
@@ -131,7 +196,94 @@ export const SERVICES_LIST = [
     imgPath: "/services/fungal-nail.png",
     description:
       "Are you troubled by the discomfort and aesthetic concerns caused by fungal nail infections? Fungal nail, also known as onychomycosis, is a common condition that occurs when fungi invade the nails, leading to various symptoms and challenges.",
-    callToAction: "What to find out more? ->",
+    callToAction: {
+      title: "What to find out more?",
+      sections: [
+        {
+          title: "What is Fungal Nail Cleaning?",
+          imagePath: "/services/fungal-nail.png",
+          descriptions: [
+            {
+              description:
+                "Fungal nail cleaning is a process to remove debris and diseased tissue from toenails or fingernails affected by fungal infection (onychomycosis). It's usually performed by a trained professional pedicure technician, podiatrist or dermatologist.",
+            },
+            {
+              description:
+                "Important to note: It's not recommended to attempt fungal nail cleaning yourself at home.",
+            },
+          ],
+        },
+        {
+          title: "Causes:",
+          descriptions: [
+            {
+              description:
+                "Fungal nail infections are primarily caused by dermatophyte fungi but can also result from yeast and mold.",
+            },
+            {
+              description:
+                "Exposure to warm and moist environments, poor nail hygiene, and compromised immune systems increase susceptibility.",
+            },
+          ],
+        },
+        {
+          title: "Symptoms:",
+          descriptions: [
+            {
+              descriptionBulletPoints: [
+                "Thickened, discolored nails (often yellow or brown)",
+                "Brittle or crumbly texture",
+                "Distorted nail shape",
+                "Foul odor in severe cases",
+                "Discomfort or pain around the affected nail",
+              ],
+            },
+          ],
+        },
+        {
+          title: "Risk Factors:",
+          descriptions: [
+            {
+              descriptionBulletPoints: [
+                "Aging increases the likelihood of fungal nail infections.",
+                "Chronic diseases like diabetes and circulatory problems.",
+                "Trauma to the nails or frequent contact with water.",
+              ],
+            },
+          ],
+        },
+        {
+          title: "What does this service include?",
+          descriptions: [
+            {
+              description:
+                "This service inculdes a range of procedures and treatments aimed at addressing and improving the condition of the nail",
+            },
+            {
+              description:
+                "Thorough cleaning of the affected nails to remove debris, dead tissue, and any topical fungal material using spezialized tools.",
+            },
+            {
+              description:
+                "Trimming and shaping of the nails to improve overall hygiene and appearance.",
+            },
+            {
+              description:
+                "Application of antifungal oil to the affected nails.",
+            },
+          ],
+        },
+        {
+          title: "",
+          descriptions: [
+            {
+              description:
+                "Don't let fungal nail infections impact your confidence and well-being. By understanding the causes, symptoms, and preventive measures, you can take proactive steps towards maintaining healthy nails. If you suspect a fungal nail infection, consult with a healthcare professional for personalized guidance and treatment options.",
+            },
+          ],
+        },
+      ],
+    },
     services: [
       {
         price: "£35 - £55",
@@ -158,7 +310,69 @@ export const SERVICES_LIST = [
     imgPath: "/services/nail-correction.png",
     description:
       "The issue of ingrown toenails impacts individuals of all ages. The painful wounds that emerge due to ingrown toenails can be so distressing that some turn to the commonly known drastic solution of completely removing the nail plate. However, I offer a less invasive but effective method of treatment.",
-    callToAction: "Who will benefit from nail correction treatment?",
+    callToAction: {
+      title: "Who will benefit from nail correction treatment?",
+      sections: [
+        {
+          title: "Who will benefit from nail correction treatment?",
+          imagePath: "/services/nail-correction.png",
+          descriptions: [
+            {
+              description:
+                "Nail correction also known as toe nail titanium bracing, is an alternative solution for patients who may not be suited for ingrown toenail surgery and have the folowing:",
+              descriptionBulletPoints: [
+                "Repeated problem with ingrowing toenails",
+                "Involuted or “Pincher” type nails",
+                "Split toenails",
+                "Deformed toenails",
+              ],
+            },
+          ],
+        },
+        {
+          title: "What does this service include?",
+          descriptions: [
+            {
+              description:
+                "A thorough examination of the ingrown toenail to assess its severity and determine the most appropriate treatment approach.",
+            },
+            {
+              description:
+                "The toenail and surrounding area are cleaned and prepared for the application of the brace.",
+            },
+            {
+              description:
+                "A titanium wire is carefully applied directly to the nailbed, usually along the sides of the ingrown toenail.",
+            },
+            {
+              description:
+                "A hardened composite material is applied to the toenail and the surrounding area, securing the titanium wire in place.",
+            },
+            {
+              description:
+                "The applied composite material is often cured or hardened using an LED light. This helps ensure the brace's stability and effectiveness.",
+            },
+            {
+              description:
+                "The titanium toenail brace acts as a support structure, lifting and gently straightening the sides of the ingrown toenail.",
+            },
+          ],
+        },
+        {
+          title: "Follow-up Care",
+          descriptions: [
+            {
+              description:
+                "Follow-up care needed, such as brace removal, periodic adjustments or additional treatments provided by the nail technician.",
+            },
+            {
+              description:
+                "This non-invasive procedure can save a lot of pain and shape unruly nails for a long time. Nail bracing is a safe, simple, non-invasive and pain free procedure that requires no anaesthetic, no recovery down time and eliminates the risk of an ingrown toenail infection.",
+            },
+          ],
+        },
+      ],
+    },
     services: [
       {
         price: "£150",

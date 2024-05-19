@@ -6,6 +6,7 @@ import {
   SERVICES_LIST,
   SERVICES_TOP_SECTION,
 } from "@/data/servicesPage";
+import ServicesAdditionalInfo from "@/components/ServicesAdditionalInfo";
 
 const Services = () => {
   return (
@@ -99,6 +100,13 @@ const Services = () => {
                 >
                   {service.description}
                 </p>
+                {service.callToAction && (
+                  <div className="mx-auto w-fit">
+                    <ServicesAdditionalInfo
+                      additionalInfoObject={service.callToAction}
+                    />
+                  </div>
+                )}
               </div>
             </Container>
           </div>
