@@ -9,7 +9,7 @@ const NavLinksMobile = () => {
       <SheetTrigger className="md:hidden">
         <CgMenuRight className="size-12 text-cyan-500" />
       </SheetTrigger>
-      <SheetContent className="max-w-64 pt-12">
+      <SheetContent className="max-w-64 pt-16">
         <nav className="flex flex-col gap-4 text-left text-cyan-500">
           {routes.map((route, index) => (
             <Link
