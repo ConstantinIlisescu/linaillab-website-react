@@ -5,6 +5,7 @@ import Services from "@/routes/services/Services";
 import MyWork from "@/routes/my-work/MyWork";
 import AboutMe from "@/routes/about-me/AboutMe";
 import "./App.css";
+import ContactMe from "./routes/contact-me/ContactMe";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "about-me",
         element: <AboutMe />,
+      },
+      {
+        path: "contact-me",
+        element: <ContactMe />,
       },
     ],
   },
