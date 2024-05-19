@@ -19,12 +19,12 @@ const AboutMe = () => {
             <div className="text-7xl md:text-8xl pb-4 text-lime-500 text-end font-italiana">
               {TOP_SECTION.titleSecondRow}
             </div>
-            <p className="text-gray-700  md:text-lg pb-8">
+            <p className="text-gray-700  md:text-lg pb-8 text-balance">
               {TOP_SECTION.paragraph}
             </p>
           </div>
           <img
-            className="w-3/4 md:w-2/4 my-rounded-tl-full rounded-br-full"
+            className="w-3/4 md:w-2/4 my-rounded-left-full"
             src={TOP_SECTION.imgPath}
             alt="Image of myself with medium length curly hair and green background"
           />
@@ -38,7 +38,7 @@ const AboutMe = () => {
           {MIDDLE_PARAGRAPH_SECTION.map((paragraph, index) => (
             <p
               key={"middle-paragraph-" + index}
-              className="text-gray-700 pb-4 md:text-lg md:max-w-xl md:ps-8"
+              className="text-gray-700 pb-4 md:text-lg md:max-w-xl md:ps-8 text-balance"
             >
               {paragraph}
             </p>
@@ -61,7 +61,7 @@ const AboutMe = () => {
           {BOTTOM_PARAGRAPH_SECTION.map((paragraph, index) => (
             <p
               key={"bottom-paragraph-" + index}
-              className="text-gray-700 md:text-lg md:max-w-md mx-auto pb-4"
+              className="text-gray-700 md:text-lg md:max-w-md mx-auto pb-4 text-balance"
             >
               {paragraph}
             </p>

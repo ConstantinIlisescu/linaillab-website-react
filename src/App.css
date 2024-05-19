@@ -22,6 +22,12 @@ body {
   font-family: "Italiana", sans-serif;
 }
 
-.my-rounded-tl-full {
-    border-top-left-radius: 7000px
+.my-rounded-left-full {
+    border-top-left-radius: 7000px;
+    border-bottom-right-radius: 9999px;
+}
+
+.my-rounded-right-full {
+    border-top-right-radius: 7000px;
+    border-bottom-left-radius: 9999px;
 }

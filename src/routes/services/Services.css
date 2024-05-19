@@ -7,7 +7,7 @@
 
 .services-right-bg-img {
   background-image: url("../../assets/images/mobile/homePage/splash-home-welcome.png");
-  background-position: right bottom;
+  background-position: right top;
   background-repeat: no-repeat;
   background-size: 25%;
 }
@@ -15,14 +15,14 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
   .services-left-bg-img {
-    background-image: url("../../assets/images/tablet/homePage/splash-home-services.png");
-    background-position: left top;
-    background-size: 12%;
+    background-image: url("../../assets/images/tablet/homePage/splash-home-welcome.png");
+    background-position: right top;
+    background-size: 20%;
   }
 
   .services-right-bg-img {
-    background-image: url("../../assets/images/tablet/homePage/splash-home-welcome.png");
-    background-position: right center;
-    background-size: 30%;
+    background-image: url("../../assets/images/tablet/homePage/splash-home-services.png");
+    background-position: left top;
+    background-size: 15%;
   }
 }

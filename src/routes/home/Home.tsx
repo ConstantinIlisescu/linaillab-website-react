@@ -43,7 +43,7 @@ const Home = () => {
                 {WELCOME.topRowTitleSecondLine}
               </p>
             </div>
-            <p className="text-gray-700 pr-10 md:text-lg">
+            <p className="text-gray-700 pr-10 md:text-lg text-balance">
               {WELCOME.description}
             </p>
           </div>
