@@ -1,4 +1,5 @@
 import Container from "@/components/ui/container";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { imageLinksNumber } from "@/data/myWorkPage";
 
 const MyWork = () => {
@@ -10,11 +11,11 @@ const MyWork = () => {
 
           for (let i = 0; i <= imageLinksNumber; i++) {
             options.push(
-              <img
+              <LazyLoadImage
                 width="300px"
                 height="100%"
-                loading="lazy"
                 src={`https://storage.cloud.google.com/linaillab-my-work-images/${i}-.jpg`}
+                alt="..."
               />
             );
           }
