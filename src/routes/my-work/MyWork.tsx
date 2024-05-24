@@ -13,6 +13,7 @@ const MyWork = () => {
               <img
                 width="300px"
                 height="100%"
+                loading="lazy"
                 src={`https://storage.cloud.google.com/linaillab-my-work-images/${i}-.jpg`}
               />
             );
