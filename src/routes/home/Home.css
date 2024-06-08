@@ -114,8 +114,8 @@
   }
 }
 
-/* MONITORS */
-@media screen and (min-width: 1024px) {
+/* large tablet */
+@media screen and (min-width: 1024px) and (min-height: 1024px) {
   /* @keyframes scale-main-image {
     0% {
       background-size: 110% 110%;
@@ -158,6 +158,26 @@
     }
   } */
 
+  .home-section-bg-img {
+    background-image: url("../../assets/images/desktop/homePage/splash-home-area.png");
+    background-size: 105%;
+    background-position: center;
+  }
+  .home-section-welcome-bg-img {
+    background-image: url("../../assets/images/desktop/homePage/splash-home-welcome.png");
+    background-position: right;
+    background-size: 40%;
+  }
+
+  .home-section-services-bg-img {
+    background-image: url("../../assets/images/desktop/homePage/splash-home-services.png");
+    background-size: 40%;
+    background-position: left center;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1024px) and (max-height: 1023px) {
   .home-section-bg-img {
     background-image: url("../../assets/images/desktop/homePage/splash-home-area.png");
     background-size: 105%;

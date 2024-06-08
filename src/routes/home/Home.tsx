@@ -26,7 +26,7 @@ const Home = () => {
                 {MAIN.middleRowSecondTextLine}
               </p>
             </div>
-            <div className="text-start mt-auto md:text-end text-7xl text-cyan-500">
+            <div className="text-start mt-auto md:text-end text-7xl text-cyan-500 pb-10">
               {MAIN.bottomRowTextLine}
             </div>
           </div>
