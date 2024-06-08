@@ -4,6 +4,7 @@ export const SERVICES_TOP_SECTION = {
 
 export const FIRST_SERVICE = {
   title: "Manicure",
+  id:"manicure",
   imgPath: "/services/manicure.png",
   description:
     "Manicure is a pampering hand treatment that involves trimming, shaping, and filing nails, as well as neatening the cuticles. The final touch involves elegantly painting your nails with a colour of your preference.",
@@ -76,6 +77,7 @@ export const FIRST_SERVICE = {
 export const SERVICES_LIST = [
   {
     title: "Pedicure",
+    id: "pedicure",
     imgPath: "/services/pedicure.png",
     description:
       "Pedicure is a cosmetic treatment for toenails, offering a range of methods. At my salon, you'll enjoy a comfortable seat as I provide the following:",
@@ -110,6 +112,7 @@ export const SERVICES_LIST = [
   },
   {
     title: "KART Spa Pedicure",
+    id: "kart",
     imgPath: "/services/kart.png",
     description:
       "The Kart system effectively treats most types of fungal infections and solves the problem of unpleasant foot odour with a guarantee of an atraumatic experience during the treatment.",
@@ -193,6 +196,7 @@ export const SERVICES_LIST = [
   },
   {
     title: "Fungal Nail Cleaning",
+    id: "fungal-nail-cleaning",
     imgPath: "/services/fungal-nail.png",
     description:
       "Are you troubled by the discomfort and aesthetic concerns caused by fungal nail infections? Fungal nail, also known as onychomycosis, is a common condition that occurs when fungi invade the nails, leading to various symptoms and challenges.",
@@ -288,6 +292,7 @@ export const SERVICES_LIST = [
       {
         price: "£35 - £55",
         serviceName: "Onycholysis Cleaning",
+        id: "onycholysis-cleaning",
         serviceDescription:
           "Onycholysis is when your nail separates from its nail bed. It often appears after an injury to your nail, but it may have other causes, including fungi. This nail treatment involves the meticulous removal of the affected nail. Cuticles are tended to with precision, nourishing cuticle and nail care oil is applied to promote healthy nail growth. ",
         duration: "approximately 1 hour 30 mins",
@@ -307,6 +312,7 @@ export const SERVICES_LIST = [
   },
   {
     title: "Nail Correction",
+    id: "nail-correction",
     imgPath: "/services/nail-correction.png",
     description:
       "The issue of ingrown toenails impacts individuals of all ages. The painful wounds that emerge due to ingrown toenails can be so distressing that some turn to the commonly known drastic solution of completely removing the nail plate. However, I offer a less invasive but effective method of treatment.",

@@ -11,7 +11,7 @@ import ServicesAdditionalInfo from "@/components/ServicesAdditionalInfo";
 const Services = () => {
   return (
     <>
-      <div className="pt-28">
+      <div id={FIRST_SERVICE.id} className="pt-28">
         <div className="services-left-bg-img md:pb-4 max-[1200px]">
           <h1 className="text-7xl md:text-8xl mx-auto w-full max-w-6xl text-cyan-500 text-end md:text-start font-italiana pb-8">
             {SERVICES_TOP_SECTION.title}
@@ -56,6 +56,7 @@ const Services = () => {
       </div>
       {SERVICES_LIST.map((service, index) => (
         <div
+          id={service.id}
           key={"service_list_" + index}
           className={` pt-28 md:pt-36 ${
             index % 2 === 0 ? "services-right-bg-img" : "services-left-bg-img"

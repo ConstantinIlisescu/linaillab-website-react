@@ -66,6 +66,7 @@ const Home = () => {
                   <OutlineBtnWithIcon
                     additionalStyles={service.buttonAdditionalStyles}
                     text={service.buttonText}
+                    href={service.href}
                   />
                 </MainServicesContainer>
               ))}
