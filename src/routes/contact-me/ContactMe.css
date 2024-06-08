@@ -1,0 +1,41 @@
+.contact-me-title-section-bg-img {
+  background-image: url("../../assets/images/mobile/homePage/splash-home-welcome.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 22%;
+}
+
+.contact-me-address-section-bg-img {
+  background-image: url("../../assets/images/mobile/homePage/splash-home-services.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+  .contact-me-title-section-bg-img {
+    background-image: url("../../assets/images/tablet/homePage/splash-home-welcome.png");
+    background-position: right center;
+  }
+
+  .contact-me-address-section-bg-img {
+    background-image: url("../../assets/images/tablet/homePage/splash-home-services.png");
+    background-position: left center;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+  .contact-me-title-section-bg-img {
+    background-image: url("../../assets/images/desktop/homePage/splash-home-welcome.png");
+    background-position: right;
+    background-size: 40%;
+  }
+
+  .contact-me-address-section-bg-img {
+    background-image: url("../../assets/images/desktop/homePage/splash-home-services.png");
+    background-size: 40%;
+    background-position: left center;
+  }
+}
