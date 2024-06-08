@@ -15,12 +15,14 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
   .contact-me-title-section-bg-img {
-    background-image: url("../../assets/images/tablet/homePage/splash-home-welcome.png");
-    background-position: right center;
+    background-image: url("../../assets/images/desktop/homePage/splash-home-welcome.png");
+    background-position: right;
+    background-size: 30%;
   }
 
   .contact-me-address-section-bg-img {
-    background-image: url("../../assets/images/tablet/homePage/splash-home-services.png");
+    background-image: url("../../assets/images/desktop/homePage/splash-home-services.png");
+    background-size: 40%;
     background-position: left center;
   }
 }
@@ -30,12 +32,12 @@
   .contact-me-title-section-bg-img {
     background-image: url("../../assets/images/desktop/homePage/splash-home-welcome.png");
     background-position: right;
-    background-size: 40%;
+    background-size: 25%;
   }
 
   .contact-me-address-section-bg-img {
     background-image: url("../../assets/images/desktop/homePage/splash-home-services.png");
-    background-size: 40%;
+    background-size: 30%;
     background-position: left center;
   }
 }
