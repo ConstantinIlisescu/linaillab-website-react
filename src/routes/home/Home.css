@@ -166,11 +166,12 @@
   .home-section-welcome-bg-img {
     background-image: url("../../assets/images/desktop/homePage/splash-home-welcome.png");
     background-position: right;
-    background-size: 20%;
+    background-size: 40%;
   }
 
   .home-section-services-bg-img {
     background-image: url("../../assets/images/desktop/homePage/splash-home-services.png");
+    background-size: 40%;
     background-position: left center;
   }
 }
