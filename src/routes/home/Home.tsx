@@ -1,5 +1,5 @@
 import { useLayoutEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Container from "@/components/ui/container";
 import "./Home.css";
 import OutlineBtnWithIcon from "@/components/OutlineBtnWithIcon";
@@ -7,11 +7,12 @@ import MainServicesContainer from "@/components/MainServicesContainer";
 import { MAIN, WELCOME, SERVICES } from "@/data/mainPage";
 
 const Home = () => {
-  const navigate = useNavigate();
+  const location = useLocation();
+  const { hash, pathname } = location;
 
   useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  }, [navigate]);
+    if (!hash) window.scrollTo(0, 0);
+  }, [hash, pathname]);
   return (
     <>
       <div className="home-section-bg-img mx-auto w-full max-w-6xl">

@@ -1,12 +1,13 @@
 import { useLayoutEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const ContactMe = () => {
-  const navigate = useNavigate();
+  const location = useLocation();
+  const { hash, pathname } = location;
 
   useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  }, [navigate]);
+    if (!hash) window.scrollTo(0, 0);
+  }, [hash, pathname]);
   return <div>ContactMe</div>;
 };
 

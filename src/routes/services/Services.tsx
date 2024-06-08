@@ -1,5 +1,5 @@
 import { useLayoutEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import "./Services.css";
 import Container from "@/components/ui/container";
 import ServiceCard from "@/components/ServiceCard";
@@ -11,11 +11,12 @@ import {
 import ServicesAdditionalInfo from "@/components/ServicesAdditionalInfo";
 
 const Services = () => {
-  const navigate = useNavigate();
+  const location = useLocation();
+  const { hash, pathname } = location;
 
   useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  }, [navigate]);
+    if (!hash) window.scrollTo(0, 0);
+  }, [hash, pathname]);
   return (
     <>
       <div id={FIRST_SERVICE.id} className="pt-28">
