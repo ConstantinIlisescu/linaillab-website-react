@@ -1,3 +1,5 @@
+import { useLayoutEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Container from "@/components/ui/container";
 import "./Home.css";
 import OutlineBtnWithIcon from "@/components/OutlineBtnWithIcon";
@@ -5,6 +7,11 @@ import MainServicesContainer from "@/components/MainServicesContainer";
 import { MAIN, WELCOME, SERVICES } from "@/data/mainPage";
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [navigate]);
   return (
     <>
       <div className="home-section-bg-img mx-auto w-full max-w-6xl">
@@ -26,7 +33,7 @@ const Home = () => {
                 {MAIN.middleRowSecondTextLine}
               </p>
             </div>
-            <div className="text-start mt-auto md:text-end text-7xl text-cyan-500 pb-16">
+            <div className="text-start mt-auto md:text-end text-7xl text-cyan-500 pb-16 lg:pb-4">
               {MAIN.bottomRowTextLine}
             </div>
           </div>

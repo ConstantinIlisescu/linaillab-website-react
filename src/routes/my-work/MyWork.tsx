@@ -1,8 +1,15 @@
+import { useLayoutEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Container from "@/components/ui/container";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { imageLinksNumber } from "@/data/myWorkPage";
 
 const MyWork = () => {
+  const navigate = useNavigate();
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [navigate]);
   return (
     <Container className=" pt-24">
       <div className="grid grid-cols-2 gap-2">
