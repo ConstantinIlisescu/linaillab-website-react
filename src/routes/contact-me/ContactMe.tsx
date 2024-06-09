@@ -3,14 +3,13 @@ import {
   CONTACT_ME_TITLE,
   SCHEDULE,
 } from "@/data/contactMePage";
-import { useLayoutEffect } from "react";
-import { useLocation } from "react-router-dom";
 import "./ContactMe.css";
 import Container from "@/components/ui/container";
 import { FaPhoneFlip } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaFacebook } from "react-icons/fa6";
+import useScrollToEffect from "@/hooks/useScrollToEffect";
 
 const icons = {
   phone: <FaPhoneFlip className="size-8 text-cyan-500" />,
@@ -20,12 +19,7 @@ const icons = {
 } as { [key: string]: React.ReactNode };
 
 const ContactMe = () => {
-  const location = useLocation();
-  const { hash, pathname } = location;
-
-  useLayoutEffect(() => {
-    if (!hash) window.scrollTo(0, 0);
-  }, [hash, pathname]);
+  useScrollToEffect();
   return (
     <>
       <div className="pt-28">

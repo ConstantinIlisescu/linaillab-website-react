@@ -1,17 +1,11 @@
-import { useLayoutEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import useScrollToEffect from "@/hooks/useScrollToEffect";
 import Container from "@/components/ui/container";
 import { AsyncImage } from "loadable-image";
 import { imageLinksNumber } from "@/data/myWorkPage";
 import { Fade } from "transitions-kit";
 
 const MyWork = () => {
-  const navigate = useNavigate();
-
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  }, [navigate]);
-
+  useScrollToEffect();
   const options = [];
 
   for (let i = 0; i <= imageLinksNumber; i++) {

@@ -1,5 +1,4 @@
-import { useLayoutEffect } from "react";
-import { useLocation } from "react-router-dom";
+import useScrollToEffect from "@/hooks/useScrollToEffect";
 import Container from "@/components/ui/container";
 import "./Home.css";
 import OutlineBtnWithIcon from "@/components/OutlineBtnWithIcon";
@@ -7,12 +6,7 @@ import MainServicesContainer from "@/components/MainServicesContainer";
 import { MAIN, WELCOME, SERVICES } from "@/data/mainPage";
 
 const Home = () => {
-  const location = useLocation();
-  const { hash, pathname } = location;
-
-  useLayoutEffect(() => {
-    if (!hash) window.scrollTo(0, 0);
-  }, [hash, pathname]);
+  useScrollToEffect();
   return (
     <>
       <div className="home-section-bg-img mx-auto w-full max-w-6xl">

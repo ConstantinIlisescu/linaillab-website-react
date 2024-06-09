@@ -1,5 +1,3 @@
-import { useLayoutEffect } from "react";
-import { useLocation } from "react-router-dom";
 import Container from "@/components/ui/container";
 import {
   BOTTOM_PARAGRAPH_SECTION,
@@ -8,14 +6,10 @@ import {
 } from "@/data/aboutMePage";
 import MainMyServicesBtn from "@/components/MainMyServicesBtn";
 import "./AboutMe.css";
+import useScrollToEffect from "@/hooks/useScrollToEffect";
 
 const AboutMe = () => {
-  const location = useLocation();
-  const { hash, pathname } = location;
-
-  useLayoutEffect(() => {
-    if (!hash) window.scrollTo(0, 0);
-  }, [hash, pathname]);
+  useScrollToEffect();
   return (
     <>
       <div className="pt-28 about-me-top-section-bg-img mx-auto w-full max-w-6xl">

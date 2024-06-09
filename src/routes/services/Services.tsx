@@ -1,5 +1,4 @@
-import { useLayoutEffect } from "react";
-import { useLocation } from "react-router-dom";
+import useScrollToEffect from "@/hooks/useScrollToEffect";
 import "./Services.css";
 import Container from "@/components/ui/container";
 import ServiceCard from "@/components/ServiceCard";
@@ -11,12 +10,7 @@ import {
 import ServicesAdditionalInfo from "@/components/ServicesAdditionalInfo";
 
 const Services = () => {
-  const location = useLocation();
-  const { hash, pathname } = location;
-
-  useLayoutEffect(() => {
-    if (!hash) window.scrollTo(0, 0);
-  }, [hash, pathname]);
+  useScrollToEffect();
   return (
     <>
       <div id={FIRST_SERVICE.id} className="pt-28">
