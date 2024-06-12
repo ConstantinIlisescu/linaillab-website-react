@@ -51,7 +51,7 @@ const Home = () => {
           </div>
         </Container>
       </div>
-      <div className="home-section-services-bg-img pt-28 mb-28 mx-auto w-full max-w-6xl">
+      <div className="home-section-services-bg-img pt-28 mx-auto w-full max-w-6xl">
         <Container>
           <div className="max-w-lg ml-auto md:pr-16">
             <div className="text-4xl pb-10 text-right ">

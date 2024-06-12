@@ -1,7 +1,7 @@
 .footer-bg-img {
   background-image: url("../../assets/images/mobile/homePage/splash-home-footer.png");
-  background-position: left;
-  background-size: cover;
+  background-position: bottom right;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -9,7 +9,6 @@
 @media screen and (min-width: 768px) {
   .footer-bg-img {
     background-image: url("../../assets/images/tablet/homePage/splash-home-footer.png");
-    background-position: center;
   }
 }
 
@@ -17,6 +16,5 @@
 @media screen and (min-width: 1024px) {
   .footer-bg-img {
     background-image: url("../../assets/images/desktop/homePage/splash-home-footer.png");
-    background-position: center;
   }
 }
