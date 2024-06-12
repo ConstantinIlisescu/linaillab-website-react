@@ -4,19 +4,19 @@ import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="footer-bg-img pt-20 pb-16">
-      <div className="max-w-72 mx-auto flex flex-col gap-4">
+    <footer className="footer-bg-img pt-20 pb-16 lg:pt-36">
+      <div className="max-w-72 lg:max-w-80 xl:max-w-lg mx-auto flex flex-col gap-4">
         <a
           href="https://www.google.co.uk/maps/place/L.I.+Nail+Lab/@52.7133641,-2.0100792,20.33z/data=!4m6!3m5!1s0x487a75a2a6cc418d:0x5b39d3cff4554809!8m2!3d52.7133059!4d-2.0101691!16s%2Fg%2F11kt98gnk9?entry=ttu"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-fuchsia-400 flex gap-2 ps-12"
+          className="text-fuchsia-400 flex gap-2 ms-12 w-fit items-center"
         >
           <FaGoogle className="size-8" />
           <p>Google Reviews</p>
         </a>
         <a
-          className="text-fuchsia-400 flex gap-2"
+          className="text-fuchsia-400 flex gap-2 w-fit items-center"
           href="https://www.facebook.com/LINailLab/reviews"
           target="_blank"
           rel="noopener noreferrer"
