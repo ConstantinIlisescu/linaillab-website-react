@@ -104,7 +104,11 @@ const Services = () => {
                   {service.description}
                 </p>
                 {service.callToAction && (
-                  <div className="mx-auto w-fit">
+                  <div
+                    className={`max-w-sm w-fit mx-auto md:m-0 ${
+                      index % 2 === 0 ? "md:ms-auto" : "md:me-auto"
+                    }`}
+                  >
                     <ServicesAdditionalInfo
                       additionalInfoObject={service.callToAction}
                     />

@@ -23,7 +23,7 @@ const ServicesAdditionalInfo = ({
   return (
     <Sheet>
       <SheetTrigger>
-        <div className=" flex gap-2 pb-4 text-cyan-500 font-italiana">
+        <div className="flex items-center gap-2 pb-4 text-cyan-500 font-italiana text-xl tracking-widest">
           <p>{additionalInfoObject.title}</p>
           <OutlineRoundIcon />
         </div>
