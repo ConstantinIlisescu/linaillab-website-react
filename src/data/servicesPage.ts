@@ -4,8 +4,8 @@ export const SERVICES_TOP_SECTION = {
 
 export const FIRST_SERVICE = {
   title: "Manicure",
-  id:"manicure",
-  imgPath: "/services/manicure.png",
+  id: "manicure",
+  imgPath: "/services/manicure.jpg",
   description:
     "Manicure is a pampering hand treatment that involves trimming, shaping, and filing nails, as well as neatening the cuticles. The final touch involves elegantly painting your nails with a colour of your preference.",
   services: [
