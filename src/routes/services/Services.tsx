@@ -1,4 +1,4 @@
-import useScrollToEffect from "@/hooks/useScrollToEffect";
+import useScrollToEffect from "@/utils/hooks/useScrollToEffect";
 import "./Services.css";
 import Container from "@/components/ui/container";
 import ServiceCard from "@/components/ServiceCard";

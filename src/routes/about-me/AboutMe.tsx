@@ -6,7 +6,7 @@ import {
 } from "@/data/aboutMePage";
 import MainMyServicesBtn from "@/components/MainMyServicesBtn";
 import "./AboutMe.css";
-import useScrollToEffect from "@/hooks/useScrollToEffect";
+import useScrollToEffect from "@/utils/hooks/useScrollToEffect";
 
 const AboutMe = () => {
   useScrollToEffect();

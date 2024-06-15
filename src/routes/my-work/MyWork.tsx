@@ -1,4 +1,4 @@
-import useScrollToEffect from "@/hooks/useScrollToEffect";
+import useScrollToEffect from "@/utils/hooks/useScrollToEffect";
 import Container from "@/components/ui/container";
 import { AsyncImage } from "loadable-image";
 import { imageLinksNumber } from "@/data/myWorkPage";

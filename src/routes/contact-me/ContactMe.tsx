@@ -9,7 +9,7 @@ import { FaPhoneFlip } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaFacebook } from "react-icons/fa6";
-import useScrollToEffect from "@/hooks/useScrollToEffect";
+import useScrollToEffect from "@/utils/hooks/useScrollToEffect";
 
 const icons = {
   phone: <FaPhoneFlip className="size-8 text-cyan-500" />,
