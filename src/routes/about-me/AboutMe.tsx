@@ -12,25 +12,27 @@ const AboutMe = () => {
   useScrollToEffect();
   return (
     <>
-      <div className="pt-28 about-me-top-section-bg-img mx-auto w-full max-w-6xl">
-        <div className=" md:flex md:flex-row-reverse">
-          <div className="px-4">
-            <div className="text-4xl md:text-6xl pb-4 text-cyan-500 text-end font-italiana">
-              {TOP_SECTION.titleFirstRow}
+      <div className="pt-28 about-me-top-section-bg-img mx-auto w-full">
+        <Container>
+          <div className=" md:flex md:flex-row-reverse">
+            <div className="px-4 flex flex-col  items-end">
+              <div className="text-4xl md:text-6xl pb-4 text-cyan-500 text-end font-italiana">
+                {TOP_SECTION.titleFirstRow}
+              </div>
+              <div className="text-7xl md:text-8xl pb-4 text-lime-500 text-end font-italiana">
+                {TOP_SECTION.titleSecondRow}
+              </div>
+              <p className="text-gray-700  md:text-lg pb-8  max-w-lg">
+                {TOP_SECTION.paragraph}
+              </p>
             </div>
-            <div className="text-7xl md:text-8xl pb-4 text-lime-500 text-end font-italiana">
-              {TOP_SECTION.titleSecondRow}
-            </div>
-            <p className="text-gray-700  md:text-lg pb-8 text-balance">
-              {TOP_SECTION.paragraph}
-            </p>
+            <img
+              className="w-3/4 md:w-2/4 my-rounded-left-full"
+              src={TOP_SECTION.imgPath}
+              alt="Image of myself with medium length curly hair and green background"
+            />
           </div>
-          <img
-            className="w-3/4 md:w-2/4 my-rounded-left-full"
-            src={TOP_SECTION.imgPath}
-            alt="Image of myself with medium length curly hair and green background"
-          />
-        </div>
+        </Container>
         <div className="w-min mx-auto">
           <MainMyServicesBtn />
         </div>
