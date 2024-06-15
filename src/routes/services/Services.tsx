@@ -24,7 +24,7 @@ const Services = () => {
                 {FIRST_SERVICE.title}
               </h2>
               <img
-                className="my-rounded-left-full"
+                className="my-rounded-left-full xl:ps-12"
                 src={FIRST_SERVICE.imgPath}
                 alt="art hand nails"
               />
@@ -80,8 +80,8 @@ const Services = () => {
               <img
                 className={
                   index % 2 === 0
-                    ? "my-rounded-right-full"
-                    : "my-rounded-left-full"
+                    ? "my-rounded-right-full xl:pe-12"
+                    : "my-rounded-left-full xl:ps-12"
                 }
                 src={service.imgPath}
                 alt="art hand nails"
