@@ -54,7 +54,7 @@ export const FIRST_SERVICE = {
         " *If you are a new client or if your nails were done over four weeks ago, an additional £5 will be added to the total price.",
     },
     {
-      price: "£20",
+      price: "£25",
       serviceName: "Gel Removing",
       serviceDescription:
         "This method involves using an electric file to carefully remove the gel until the natural nail is clean from any gel, nail polish, or other technical material. At the same time, the nails will be shaped, the cuticles will be cleaned, and cuticle oil will be applied. ",
